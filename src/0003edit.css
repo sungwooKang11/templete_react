@@ -1,0 +1,63 @@
+body {
+    width: 100vw; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Tmoney";
+    src: url("./fonts/TmoneyRoundWindRegular.ttf");
+}
+
+.background03e {
+    width: 360px; height: 720px;
+    background-color: #FDE7E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal03e {
+    width: 296px; height: 300px;
+    background-color: #FFF9F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.namePart03e {
+    width: 264px; height: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name03e {
+    font-family: "Tmoney";
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nameInput03e {
+    width: 232px; height: 40px;
+    background-color: #E8E8E8;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 16px;
+}
+.nameInput03e:focus {
+    outline: none;
+}
+
+.dayPart03e {
+    width: 264px; height: 78px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
