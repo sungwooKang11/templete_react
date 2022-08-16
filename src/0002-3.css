@@ -1,0 +1,28 @@
+body {
+    width: 100vw; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Tmoney";
+    src: url("./fonts/TmoneyRoundWindRegular.ttf");
+}
+
+.background023 {
+    width: 360px; height: 720px;
+    background-color: #FDE7E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginGood023 {
+    font-size: 17px;
+    font-family: 'Tmoney';
+    font-weight: bolder;
+    color: #DD9292;
+    margin-top: 24px;
+}
