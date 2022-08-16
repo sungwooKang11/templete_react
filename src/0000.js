@@ -1,4 +1,4 @@
-import './style.css';
+import './0000.css';
 import bigLogo from './image source/bigLogo.png';
 
 function App() {
