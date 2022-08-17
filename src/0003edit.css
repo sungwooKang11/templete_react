@@ -60,4 +60,84 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 32px;
+}
+
+.birthchk03e {
+    font-family: "Tmoney";
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.selectBox03e {
+    width: 264px; height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.monthSide03e {
+    width: 105px; height: 40px;
+}
+
+.month03e {
+    width: 80px; height: 40px;
+    background-color: #E8E8E8;
+    font-family: 'Tmoney';
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+
+}
+.month03e:focus {
+    outline: none;
+}
+
+.월 {
+    width: 17px; height: 22px;
+    font-family: 'Tmoney';
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.daySide03e {
+    width: 105px; height: 40px;
+}
+
+.day03e {
+    width: 80px; height: 40px;
+    padding: 0;
+    background-color: #E8E8E8;
+    font-family: 'Tmoney';
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 7px;
+
+}
+.day03e:focus {
+    outline: none;
+}
+
+.일 {
+    width: 17px; height: 22px;
+    font-family: 'Tmoney';
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.saveBtn03e {
+    width: 56px; height: 32px; 
+    background-color: #DD9292;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Tmoney';
+    font-size: 13px;
+    color: #fff;
+    margin-top: 32px;
 }
