@@ -1,0 +1,56 @@
+body {
+    width: 100vw; height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Tmoney";
+    src: url("./fonts/TmoneyRoundWindRegular.ttf");
+}
+
+.background09 {
+    width: 360px; height: 720px;
+    background-color: #FDE7E2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.backPrat09 {
+    width: 360px; height: 40px;
+}
+
+.backBtn09 {
+    margin-left: 13px;
+    margin-top: 16px;
+}
+
+.letterBox09 {
+    width: 360px; height: 680px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter09 {
+    width: 312px; height: 344px;
+    background-color: #FFF9F4;
+    border-radius: 30px;
+    border: none;
+    resize: none;
+}
+.letter09:focus {
+    outline: none;
+}
+
+hr {
+    width: 264px; height: 4px;
+    background-color: #EDC6C4;
+    border-radius: 10px;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 0;
+}

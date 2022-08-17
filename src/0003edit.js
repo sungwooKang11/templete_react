@@ -1,5 +1,4 @@
 import './0003edit.css';
-import OK1 from './image source/OK1.png';
 
 function App() {
   return (
