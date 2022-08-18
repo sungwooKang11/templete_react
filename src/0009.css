@@ -28,27 +28,35 @@ body {
     margin-top: 16px;
 }
 
-.letterBox09 {
+.container09 {
     width: 360px; height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letterBox09 {
+    width: 360px; height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .letter09 {
-    width: 312px; height: 344px;
+    width: 262px; height: 304px;
     background-color: #FFF9F4;
     border-radius: 30px;
     border: none;
     resize: none;
     font-family: "Tmoney";
-    font-size: 15px;
+    font-size: 17px;
     background-attachment: local;
     background-image:
         linear-gradient(to right, white 24px, transparent 10px),
         linear-gradient(to left, white 24px, transparent 10px),
-        repeating-linear-gradient(white, white 31px, #EDC6C4 32px, #EDC6C4 36px, white 31px);
-    line-height: 36px;
+        repeating-linear-gradient(white, white 41px, #EDC6C4 44px, #EDC6C4 44px, white 41px);
+    line-height: 44px;
     padding: 10px 25px;
     margin: 7px 24px;
 }
@@ -56,11 +64,18 @@ body {
     outline: none;
 }
 
-hr {
-    width: 264px; height: 4px;
-    background-color: #EDC6C4;
-    border-radius: 10px;
-    border: none;
-    margin-top: 32px;
-    margin-bottom: 0;
+.counting09 {
+    width: 312px; height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: "Tmoney";
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.pageNum09 {
+    margin-left: 16px;
+    margin-right: 16px;
 }
