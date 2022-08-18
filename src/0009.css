@@ -41,6 +41,16 @@ body {
     border-radius: 30px;
     border: none;
     resize: none;
+    font-family: "Tmoney";
+    font-size: 15px;
+    background-attachment: local;
+    background-image:
+        linear-gradient(to right, white 24px, transparent 10px),
+        linear-gradient(to left, white 24px, transparent 10px),
+        repeating-linear-gradient(white, white 31px, #EDC6C4 32px, #EDC6C4 36px, white 31px);
+    line-height: 36px;
+    padding: 10px 25px;
+    margin: 7px 24px;
 }
 .letter09:focus {
     outline: none;
