@@ -14,11 +14,13 @@ function App() {
         <div className="container09">
           <div className='letterBox09'>
             <textarea className='letter09'></textarea>
+            <textarea className='letter09'></textarea>
+            <textarea className='letter09'></textarea>
           </div>
           <div className="counting09">
-            <img src={leftarrow}></img>
+            <img className="leftBtn09" src={leftarrow}></img>
             <div className="pageNum09">1 / 23</div>
-            <img src={rightarrow}></img>
+            <img className="rightBtn09" src={rightarrow}></img>
           </div>
         </div>
       </div>
