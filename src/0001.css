@@ -10,7 +10,7 @@ body {
     src: url("./fonts/TmoneyRoundWindRegular.ttf");
 }
 
-.background09 {
+.background01 {
     width: 360px; height: 720px;
     background-color: #FDE7E2;
     display: flex;
