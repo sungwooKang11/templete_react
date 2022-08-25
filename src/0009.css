@@ -37,22 +37,29 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    /* overflow: hidden; */
+    /* overflow: auto; */
+}
+
+.letterCon09 {
+    width: 360px; height: 380px;
+    overflow: auto;
 }
 
 .letterBox09 {
     width: 1000px; height: 360px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-left: 12.5px;
+    margin-right: 12.5px;
 }
 
 .letter09 {
     width: 262px; height: 304px;
     background-color: #FDE7E2;
     border-radius: 30px;
-    
+    border: none;
     resize: none;
     font-family: "Tmoney";
     font-size: 17px;
