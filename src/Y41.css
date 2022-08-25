@@ -23,6 +23,9 @@
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 2px 3px 1px #edc6c4;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
 }
 .owner41 {
     color: #5e452a;
