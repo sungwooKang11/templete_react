@@ -51,7 +51,7 @@
   }
 .modalGroup{
     width: 1000px;
-    height: 350px;
+    height: 370px;
     display: flex;
     flex-direction: row;
     overflow: auto;
@@ -62,4 +62,5 @@
 
 .modal{
     margin-left: 40px;
+    margin-right: 40px;
 }
