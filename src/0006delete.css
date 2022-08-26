@@ -61,6 +61,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .circle06 {
@@ -78,12 +79,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .X06:after {
     display: inline-block;
     content: "\00d7";
     font-size:36pt; 
-    color:#fff; border-radius: 30px;
+    color:#fff; 
+    border-radius: 30px;
     }
 
 
