@@ -29,7 +29,7 @@ function Y41() {
                 <div className='modalGroup'>
                     <div className="modal41 modal first">
                         <span className="owner41">편지의 주인공은?</span>
-                        <input className="name41" id='owner' name='owner' onChange={getValue}></input>
+                        <input className="name41" id='owner' name='owner' onChange={getValue} required></input>
                             <button className="next41" onClick={sendValue}>다음</button>
                         <div className="dote41">
                             <nav className="dote141"></nav>
