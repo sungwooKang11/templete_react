@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+@font-face {
+    font-family: "Tmoney";
+    src: url("./fonts/TmoneyRoundWindRegular.ttf");
+}
+
 .background41 {
     width: 360px;
     height: 720px;
@@ -15,8 +20,8 @@
     border-radius: 20px;
 }
 .modal41 {
-    width: 274px;
-    height: 274px;
+    width: 296px;
+    height: 288px;
     background-color: #fff9f4;
     border-radius: 30px;
     display: flex;
@@ -29,6 +34,7 @@
 }
 .owner41 {
     color: #5e452a;
+    font-family: 'Tmoney';
     font-size: large;
     font-weight: 600;
     margin-top: 20px;
@@ -41,6 +47,35 @@
     background-color: #e5e5e5;
     border-radius: 8px;
 }
+
+.btnCon41 {
+    width: 204px; height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.next41 {
+    width: 55px;
+    height: 28px;
+    background-color: #dd9292;
+    color: #fde7e2;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.back41 {
+    width: 55px;
+    height: 28px;
+    background-color: #dd9292;
+    color: #fde7e2;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
 .dote41 {
     margin-top: 85px;
     display: flex;
@@ -65,16 +100,4 @@
     height: 10px;
     background-color: #e2b7b4;
     border-radius: 5px;
-}
-.next41 {
-    margin-top: 20px;
-    border: 0;
-    margin-left: 165px;
-    width: 55px;
-    height: 28px;
-    background-color: #dd9292;
-    color: #fde7e2;
-    font-weight: bolder;
-    font-size: 15px;
-    border-radius: 8px;
 }

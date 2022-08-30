@@ -22,15 +22,22 @@ function Y41() {
     const sendValue = () =>{
         console.log(info)
     }
+
+  
+    
     
     return (
         <div className="Y41">
             <div className="background41">
                 <div className='modalGroup'>
                     <div className="modal41 modal first">
-                        <span className="owner41">편지의 주인공은?</span>
+                        <span className="owner41">편지의 주인공은 누구인가요?</span>
                         <input className="name41" id='owner' name='owner' onChange={getValue} required></input>
+                        <div className='btnCon41'>
+                            <button className="back41" onClick={sendValue}>이전</button>
                             <button className="next41" onClick={sendValue}>다음</button>
+                        </div>
+                        
                         <div className="dote41">
                             <nav className="dote141"></nav>
                             <nav className="dote241"></nav>

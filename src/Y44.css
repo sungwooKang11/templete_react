@@ -58,11 +58,20 @@
     height: 370px;
     display: flex;
     flex-direction: row;
-    overflow: auto;
+    
     justify-content: space-between;
+    transition: 0.5s;
 }
 
 .modal{
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.swipeR {
+    transform: translateX(360px);
+}
+
+.swipeL {
+    transform: translateX(-360px);
 }
