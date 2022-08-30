@@ -34,10 +34,9 @@ function Y41() {
                         <span className="owner41">편지의 주인공은 누구인가요?</span>
                         <input className="name41" id='owner' name='owner' onChange={getValue} required></input>
                         <div className='btnCon41'>
-                            <button className="back41" onClick={sendValue}>이전</button>
+                            <button className="back41">취소</button>
                             <button className="next41" onClick={sendValue}>다음</button>
                         </div>
-                        
                         <div className="dote41">
                             <nav className="dote141"></nav>
                             <nav className="dote241"></nav>
@@ -46,7 +45,7 @@ function Y41() {
                     </div>
 
                     <div className="modal42 modal second">
-                        <span className="birth42">요한 님의 생일은?</span>
+                        <span className="birth42">요한 님의 생일은 언제인가요?</span>
                         <div className="date42">
                             <select className="month42" type="number" id='month' name='month' onChange={getValue}>
                                 <option value={''}></option>
