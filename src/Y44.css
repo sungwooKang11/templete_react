@@ -8,16 +8,14 @@
     border-radius: 20px;
 }
 .modal44 {
-    width: 274px;
-    height: 330px;
+    width: 296px;
+    height: 382px;
     background-color: #fff9f4;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 2px 2px 3px 1px #edc6c4;
-    padding-left: 40px;
-    padding-right: 40px;
     margin-right: 50px;
 }
 .circle44 {
@@ -54,24 +52,14 @@
   }
   
 .modalGroup{
-    width: 1000px;
-    height: 370px;
+    width: 1500px;
+    height: 390px;
     display: flex;
     flex-direction: row;
-    
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     transition: 0.5s;
 }
 
-.modal{
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
-.swipeR {
-    transform: translateX(360px);
-}
 
-.swipeL {
-    transform: translateX(-360px);
-}
